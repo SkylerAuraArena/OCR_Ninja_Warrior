@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etbre\\source\\repos\\OCR\\OCR.csproj": {}
+    "C:\\Users\\etbre\\Source\\Repos\\SkylerAuraArena\\OCR_Ninja_Warrior\\OCR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etbre\\source\\repos\\OCR\\OCR.csproj": {
+    "C:\\Users\\etbre\\Source\\Repos\\SkylerAuraArena\\OCR_Ninja_Warrior\\OCR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etbre\\source\\repos\\OCR\\OCR.csproj",
+        "projectUniqueName": "C:\\Users\\etbre\\Source\\Repos\\SkylerAuraArena\\OCR_Ninja_Warrior\\OCR.csproj",
         "projectName": "OCR",
-        "projectPath": "C:\\Users\\etbre\\source\\repos\\OCR\\OCR.csproj",
+        "projectPath": "C:\\Users\\etbre\\Source\\Repos\\SkylerAuraArena\\OCR_Ninja_Warrior\\OCR.csproj",
         "packagesPath": "C:\\Users\\etbre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etbre\\source\\repos\\OCR\\obj\\",
+        "outputPath": "C:\\Users\\etbre\\Source\\Repos\\SkylerAuraArena\\OCR_Ninja_Warrior\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\etbre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"

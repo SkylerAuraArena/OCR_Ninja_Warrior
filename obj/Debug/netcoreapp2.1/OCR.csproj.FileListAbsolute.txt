@@ -9,3 +9,14 @@ C:\Users\etbre\source\repos\OCR\obj\Debug\netcoreapp2.1\OCR.AssemblyInfoInputs.c
 C:\Users\etbre\source\repos\OCR\obj\Debug\netcoreapp2.1\OCR.AssemblyInfo.cs
 C:\Users\etbre\source\repos\OCR\obj\Debug\netcoreapp2.1\OCR.dll
 C:\Users\etbre\source\repos\OCR\obj\Debug\netcoreapp2.1\OCR.pdb
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\bin\Debug\netcoreapp2.1\OCR.deps.json
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\bin\Debug\netcoreapp2.1\OCR.runtimeconfig.json
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\bin\Debug\netcoreapp2.1\OCR.runtimeconfig.dev.json
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\bin\Debug\netcoreapp2.1\OCR.dll
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\bin\Debug\netcoreapp2.1\OCR.pdb
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.csprojAssemblyReference.cache
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.csproj.CoreCompileInputs.cache
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.AssemblyInfoInputs.cache
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.AssemblyInfo.cs
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.dll
+C:\Users\etbre\Source\Repos\SkylerAuraArena\OCR_Ninja_Warrior\obj\Debug\netcoreapp2.1\OCR.pdb
