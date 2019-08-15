@@ -5,6 +5,7 @@ namespace OCR {
         private static Random random = new Random();
 
         static void Main(string[] args) {
+            Console.WriteLine("Jeu !");
             //Jeu1();
             Jeu2();
         }
