@@ -4,15 +4,15 @@ using System.Text;
 
 namespace OCR
 {
-    public class De {
-        private Random random;
+    public static class De {
+        private static Random random = new Random();
 
-        public De() {
-            random = new Random();
+        public static int LanceLeDe() {
+            return random.Next(1, 7);
         }
 
-        public int LanceLeDe() {
-            return random.Next(1, 7);
+        public static int LanceLeDe(int valeur) {
+            return random.Next(1, valeur);
         }
     }
 }

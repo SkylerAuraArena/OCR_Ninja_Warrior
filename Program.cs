@@ -5,7 +5,8 @@ namespace OCR {
         private static Random random = new Random();
 
         static void Main(string[] args) {
-            Jeu1();
+            //Jeu1();
+            Jeu2();
         }
 
         private static void Jeu1() {
@@ -40,5 +41,20 @@ namespace OCR {
             else
                 return new MonstreDifficile();
         }
+
+        private static void Jeu2() {
+            Joueur nicolas = new Joueur(150);
+            BossDeFin boss = new BossDeFin(250);
+            while (nicolas.EstVivant && boss.EstVivant) {
+                nicolas.Attaque(boss);
+                if (boss.EstVivant)
+                    boss.Attaque(nicolas);
+            }
+            if (nicolas.EstVivant)
+                Console.WriteLine("Bravo, vous avez sauvé la princesse (ou le prince !)");
+            else
+                Console.WriteLine("Game over...");
+        }
+
     }
 }

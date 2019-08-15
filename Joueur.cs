@@ -4,7 +4,6 @@ using System.Text;
 
 namespace OCR {
     public class Joueur {
-        private De de;
         public int PtsDeVies { get; private set; }
         public bool EstVivant {
             get { return PtsDeVies > 0; }
@@ -12,7 +11,6 @@ namespace OCR {
 
         public Joueur(int points) {
             PtsDeVies = points;
-            de = new De();
         }
 
         public void Attaque(MonstreFacile monstre) {
@@ -22,8 +20,17 @@ namespace OCR {
                 monstre.SubitDegats();
         }
 
+        public void Attaque(BossDeFin boss) {
+            int nbPoints = LanceLeDe(26);
+            boss.SubitDegats(nbPoints);
+        }
+
         public int LanceLeDe() {
-            return de.LanceLeDe();
+            return De.LanceLeDe();
+        }
+
+        public int LanceLeDe(int valeur) {
+            return De.LanceLeDe(valeur);
         }
 
         public void SubitDegats(int degats) {
@@ -32,7 +39,7 @@ namespace OCR {
         }
 
         private bool BouclierFonctionne() {
-            return de.LanceLeDe() <= 2;
+            return De.LanceLeDe() <= 2;
         }
     }
 }
